@@ -12,8 +12,9 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <h1>LAB | React IronBeers</h1>
-        
+      <div className="heroHeading">
+        <h1>React IronBeers</h1>
+      </div> 
         <Routes>
           <Route path='/' element={< HomePage/>} />
           <Route path='/beers' element={< AllBeersPage/>} />
