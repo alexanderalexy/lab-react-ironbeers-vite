@@ -2,6 +2,7 @@
     font-size: 16px;
 }
 
+
 nav {
     background-color: rgb(0, 204, 255);
     height: 10vh;
@@ -21,6 +22,8 @@ ul{
 .homeContainer {
     display: flex;
     flex-direction: column;
+    width: 80vw;
+    margin: 0 auto;
 }
 
 body {
@@ -39,17 +42,23 @@ h1 {
     font-size: 4rem;
 }
 
+
 .heroHeading {
     font-size: 4rem;
     color: rgb(0, 8, 92);
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .homeText {
     font-size: 16px;
     color: #333;
    
+  }
+
+  .homeContainer img {
+    border-radius: 30px;
   }
 
